@@ -25,7 +25,15 @@ programa {
     escreva("\n---- LISTA DE ALUNOS ----\n")
 
     para( inteiro i = 0; i < 5; i++ ) {
-     escreva("\nAluno: ", nomes[i])
+      escreva("\nAluno: ", nomes[i])
+
+
+       para (inteiro j = 0; j < 3; j++){
+        inteiro posicao = (i*3) +j
+
+        escreva("\n Notas: ",notas[posicao])
+      }
+        
     }
 
   }
